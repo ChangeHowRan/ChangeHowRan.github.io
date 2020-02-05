@@ -65,7 +65,7 @@ function bot_ui_ini() {
         secondpart = function () {
             botui.message.add({
                 delay: 1500,
-                content: "目前就读于上海财经大学"
+                content: "出生于在先秦时期属南越也就是现在的佛山"
             }).then(function () {
                 botui.message.add({
                     delay: 1500,
@@ -77,15 +77,15 @@ function bot_ui_ini() {
                     }).then(function () {
                         botui.message.add({
                             delay: 1500,
-                            content: "主攻 R 语言和 Python，略懂 STATA，偶尔也折腾 HTML/CSS/JavaScript/PHP"
+                            content: "主攻 JavaScript 语言和 Python，略懂 STATA，偶尔也折腾 HTML/CSS/PHP/Webapp"
                         }).then(function () {
                             botui.message.add({
                                 delay: 1500,
-                                content: "研究的方向，是经济/金融方向的数据分析（data science）以及机器学习（machine learning）"
+                                content: "喜欢唱歌，虽说经常跑调，哈哈"
                             }).then(function () {
                                 botui.message.add({
                                     delay: 1800,
-                                    content: "喜欢画画，希望有一天能够被称为画师"
+                                    content: "也喜欢画画，希望有一天能够被称为画师"
                                 }).then(function () {
                                     botui.action.button({
                                         delay: 1100,
@@ -143,7 +143,7 @@ function bot_ui_ini() {
         fifthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "emmmm，看备案信息你就知道了=.= 本来想要zheng.xin的，但50万真买不起。。"
+                content: "emmmm，可能是因为贫穷吧。。"
             }).then(function () {
                 botui.message.add({
                     delay: 1600,
